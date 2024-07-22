@@ -131,6 +131,7 @@ mod typescript {
     pub mod ban_ts_comment;
     pub mod ban_tslint_comment;
     pub mod ban_types;
+    pub mod class_literal_property_style;
     pub mod consistent_indexed_object_style;
     pub mod consistent_type_definitions;
     pub mod consistent_type_imports;
@@ -545,6 +546,7 @@ oxc_macros::declare_all_lint_rules! {
     typescript::ban_tslint_comment,
     typescript::prefer_enum_initializers,
     typescript::ban_types,
+    typescript::class_literal_property_style,
     typescript::consistent_type_definitions,
     typescript::consistent_type_imports,
     typescript::consistent_indexed_object_style,
